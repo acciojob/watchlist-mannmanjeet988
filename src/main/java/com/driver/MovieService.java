@@ -60,8 +60,8 @@ public class MovieService {
         return ans;
     }
 
-    public String deleteAllDirector(){
-        String ans = movieRepository.removeAllDirector();
+    public String deleteAllDirectors(){
+        String ans = movieRepository.deleteAllDirectors();
         return ans;
     }
 }

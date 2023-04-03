@@ -81,7 +81,7 @@ public class MovieRepository {
         return "Director removed Successfully";
     }
 
-    public String removeAllDirector(){
+    public String deleteAllDirectors(){
 
         for(String director : directorDb.keySet())
         {
